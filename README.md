@@ -29,3 +29,17 @@ experiments/  実験ごとの設定・結果
 docs/         論文メモ・研究メモ
 data/         データセット配置用
 outputs/      出力画像・モデルなど
+```
+
+## 実行方法
+
+```bash
+pip install -r requirements.txt
+python src/train.py
+python src/explain.py
+```
+
+## 参考文献
+- Selvaraju et al., Grad-CAM
+- Ribeiro et al., LIME
+- Lundberg and Lee, SHAP
