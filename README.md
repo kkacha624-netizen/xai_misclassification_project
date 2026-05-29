@@ -34,7 +34,9 @@ outputs/      出力画像・モデルなど
 ## 実行方法
 
 ```bash
+git clone https://github.com/kkacha624-netizen/xai_misclassification_project
 pip install -r requirements.txt
+pip install -r requirements_torch.txt
 python src/train.py
 python src/explain.py
 ```
