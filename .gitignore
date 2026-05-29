@@ -34,3 +34,10 @@ Thumbs.db
 *.pkl
 outputs/misclassified/*
 data/
+.venv/
+
+# temporary files #
+###################
+*.tmp
+src/__pycache__/
+checkpoints/
