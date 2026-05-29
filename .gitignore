@@ -34,3 +34,4 @@ Thumbs.db
 *.pkl
 outputs/misclassified/*
 data/
+.venv/
